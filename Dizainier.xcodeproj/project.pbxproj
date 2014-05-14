@@ -394,6 +394,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dizainier/Dizainier-Prefix.pch";
 				INFOPLIST_FILE = "Dizainier/Dizainier-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dizainier/Dizainier-Prefix.pch";
 				INFOPLIST_FILE = "Dizainier/Dizainier-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -471,6 +473,7 @@
 				CEB43577192404310043900A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEB43578192404310043900A /* Build configuration list for PBXNativeTarget "DizainierTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +482,7 @@
 				CEB4357A192404310043900A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

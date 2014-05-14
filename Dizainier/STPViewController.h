@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface STPViewController : UIViewController
+@interface STPViewController : UIViewController {
+    int total;
+}
+
+@property (weak, nonatomic) IBOutlet UISegmentedControl *tenSegment;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *unitSegment;
+@property (weak, nonatomic) IBOutlet UILabel *totalLabel;
+
+- (IBAction)tenChange:(id)sender;
+
+- (void) updateInterface;
 
 @end
