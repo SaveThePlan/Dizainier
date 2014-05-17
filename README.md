@@ -20,3 +20,10 @@ Si le nombre est 42, il doit s'afficher dans une couleur différente
 
 
 Un switch "mode geek" permet de convertir l'affichage en hexadecimal.
+
+
+## Version produite #
+
+Le mode geek provoque l'affichage de deux segmented supplémentaires qui permettent de saisir un nombre en hexadecimal, il correspondent respectivement aux rangs 1 et 2 du nombre saisi.  
+De plus, l'affichage du résultat est dupliqué, une première fois en décimal, une seconde fois en hexadécimal.  
+L'application est donc un mini convertisseur
